@@ -33,9 +33,9 @@ export const App = (props) => {
     <div className="app">
       <header>{title}</header>
       <main>
-        <h1>Search Giphy</h1>
+        <h1>SEARCH GIPHY</h1>
         {/* <img src={gifs[0].images.original.url}></img> */}
-        <input onKeyDown={keydownHandler}></input>
+        <input onKeyDown={keydownHandler} placeholder="Search GIF"></input>
 
         <SearchResults slike={gifs} />
       </main>
